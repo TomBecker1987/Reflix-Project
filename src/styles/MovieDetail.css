@@ -1,0 +1,29 @@
+body{
+    color: white;
+}
+#main-container{
+    height: 300px;
+}
+div#movie-detail{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 9fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+figure{
+    grid-column: 2/3;
+}
+img{
+    height: 
+}
+h2{
+    grid-column: 1/4;
+    text-align: center;
+    text-justify: center;
+}
+p{
+    padding: 0 100px;
+    grid-column: 1/4;
+    text-align: center;
+    text-justify: center;
+}
